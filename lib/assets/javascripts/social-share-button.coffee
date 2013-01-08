@@ -12,7 +12,7 @@ window.SocialShareButton =
       url = encodeURIComponent(location.href)
     switch site
       when "pintrest"
-        SocialShareButton.openUrl("http://pinterest.com/pin/create/button/?url=#{url}&media=#{image}&description=#{title}")
+        SocialShareButton.openUrl("http://pinterest.com/pin/create/button/?url=#{url}&media=#{img}&description=#{title}")
       when "weibo"
         SocialShareButton.openUrl("http://service.weibo.com/share/share.php?url=#{url}&type=3&pic=#{img}&title=#{title}")
       when "twitter"
